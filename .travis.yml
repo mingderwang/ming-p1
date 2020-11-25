@@ -1,0 +1,16 @@
+language: python
+
+install:
+  - pip3 install poetry
+  - poetry install
+
+script:
+  - poetry run invoke lint
+  - poetry run invoke test
+
+matrix:
+  include:
+    # Only test versions of Python greater than our minimum supported.
+    - os: linux
+      dist: xenial
+      python: 3.8-dev
