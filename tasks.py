@@ -33,6 +33,18 @@ def test(c):
 def html(c):
     c.run('make -C docs html', echo=True, pty=pty)
 
+@task
+def testpypi(c):
+    c.run('poetry config http-basic.testpypi mingderwang Te4U@626', echo=False, pty=pty)
+    c.run('poetry build', echo=True, pty=pty)
+    c.run('poetry publish -r testpypi', echo=True, pty=pty)
+
+@task
+def pypi(c):
+    c.run('poetry config http-basic.pypi mingderwang @626Te4U', echo=False, pty=pty)
+    c.run('poetry build', echo=True, pty=pty)
+    c.run('poetry publish', echo=True, pty=pty)
+
 
 @task
 def serve(c):
