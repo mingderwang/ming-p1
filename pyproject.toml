@@ -4,7 +4,7 @@ version = "0.1.0"
 description = ""
 authors = ["Ming-der Wang <mingderwang@gmail.com>"]
 documentation = "https://ming-p1.readthedocs.io/"
-repository = "https://github.com/mingder78/ming-p1/"
+repository = "https://github.com/mingderwang/ming-p1/"
 readme = "README.rst"
 license = "ISC"
 packages = [{ include = "ming_p1" }]
