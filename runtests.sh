@@ -13,3 +13,5 @@ if [ "$?" = "0" ]; then
 
     # pyflakes or its like should go here
 fi
+
+python -m doctest -v  tests/test_test.py
