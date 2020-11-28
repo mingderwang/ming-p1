@@ -1,5 +1,5 @@
 #!/bin/bash
-
+# test Travis CI
 find . -name "*.pyc" -exec rm {} \;
 coverage run -p --source=tests,helloworld -m unittest # this is where you add the
                                                       # folders you want to test
