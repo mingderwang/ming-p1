@@ -17,7 +17,7 @@ def lint(c):
     nproc = multiprocessing.cpu_count()
     c.run(f'mypy {package_name} tests', echo=True, pty=pty)
     c.run(f'pylint --jobs {nproc} {package_name} tests', echo=True, pty=pty)
-    c.run(f'pydocstyle {package_name} tests', echo=True, pty=pty)
+    # c.run(f'pydocstyle {package_name} tests', echo=True, pty=pty)
 
 
 @task
