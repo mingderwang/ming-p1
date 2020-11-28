@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "ming_p1"
-version = "0.1.3"
+version = "0.1.4"
 description = "use yo and poetry test"
 authors = ["Ming-der Wang <mingderwang@gmail.com>"]
 documentation = "https://ming-p1.readthedocs.io/"
