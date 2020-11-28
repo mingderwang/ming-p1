@@ -4,4 +4,18 @@
 
 .. Add sections as items in this list.
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 3
+
+===============
+Ming-Packages
+===============
+
+
+Using ming-p1
+---------------------
+
+Indices and Tables
+==================
+
+* :ref:`genindex`
+* :ref:`search`

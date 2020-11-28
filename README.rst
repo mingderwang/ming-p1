@@ -4,12 +4,12 @@
 ming_p1
 =======
 
-.. image:: https://travis-ci.org/mingder78/ming-p1.svg?branch=master
-   :target: https://travis-ci.org/mingder78/ming-p1
+.. image:: https://travis-ci.org/mingderwang/ming-p1.svg?branch=main
+   :target: https://travis-ci.org/mingderwang/ming-p1
    :alt: Build status: Linux and OSX
 
-.. image:: https://ci.appveyor.com/api/projects/status/github/mingder78/ming-p1?branch=master&svg=true
-   :target: https://ci.appveyor.com/project/mingder78/ming-p1
+.. image:: https://ci.appveyor.com/api/projects/status/github/mingderwang/ming-p1?branch=main&svg=true
+   :target: https://ci.appveyor.com/project/mingderwang/ming-p1
    :alt: Build status: Windows
 
 .. image:: https://readthedocs.org/projects/ming-p1/badge/?version=latest
